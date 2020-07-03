@@ -1,0 +1,23 @@
+1. Hafta Özet
+
+1.GÜN 29/06/2020
+liste.html adı altında HTML üzerinde 5 elemanlı sıralı(OL) ve sırasız (UL) listeler oluşturuldu.
+tablo.html adı altında WEB sayfasında tablo oluşturuldu ve bu tablo istenilen şekilde özelleştirildi.
+tabo_liste.html adı altında yapılan küçük bir hesaplama ile oluştulan listeyi tablo.html içerisinde tablonun hesaplanan konumuna eklendi.
+ve yapılan bütün çalışmalar Github  Respository (Depo) ya eklendi.
+
+2.GÜN 30/06/2020
+Oluşturduğumuz HTML kodlu tabloya CSS kodları ekenerek kompakt ve düzgün bir görünüm sağlandı.
+
+3.GÜN 01/07/2020
+Oluşturduğumuz TABLOYA MEDİA QUERİES kullanılarak pencere büyültüp veya küçülttüğümüz zaman arkaplan renklerinde ve yazılarda renk değişikliği olaması sağlandı.
+Verilen şartlar doğrultusunda 503 piksel olacak şekilde tablo ayarlandı ve arkaplan, tablo kenarlığırengi, tablo kenar kalınlığı, yazı renklerinde değişiklikler yapıldı.
+Yapılan her değişiklik için farklı (.html) uzantılı dosyalar oluşturuldu.
+ve yapılan tüm çalışmalar Github  Respository (Depo) ya eklendi.
+
+4.GÜN 02/07/2020
+CSS GRİD hakkında araştırma yapıldı ve kısa bir özet çıkartıldı.
+Github Respository (Depo) ya eklendi.
+
+5.GÜN 03/07/2020
+1.HAFTA ÖZET ÇIKARILDI VE GİTHUB RESPOSİTORY (DEPO) YA YÜKLENDİ.
