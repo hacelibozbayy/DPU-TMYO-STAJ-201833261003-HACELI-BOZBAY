@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.item1 { grid-area: baslik; }       /*burası item yani elemanları tanımladığımız kısımdır*/
+.item4 { grid-area: menu; }
+.item2 { grid-area: monster; }
+.item3 { grid-area: anasayfa; }
+.item5 { grid-area: altbilgi; }
+
+.grid-container {
+  display: grid;
+  
+  grid-template-areas:             /* burası ise elemanların yerini belirlediğimiz kısımdır*/
+    'baslik baslik baslik baslik baslik '
+    'menu anasayfa anasayfa anasayfa monster '
+    'menu altbilgi altbilgi altbilgi altbilgi ';
+    
+  grid-gap: 15px; 				   /* burası arkaplan renkleri ve font özelliklerini belirdiğimiz kısımdır*/
+  background-color: #fcff00;
+  padding: 20px;
+}
+
+.grid-container > div {   
+  background-color: rgba(255, 0, 0, 0.8);/*Gridin içindeki div kutularının arkaplan renginin ayarlanması. */
+  text-align: center;/*Div kutularının içindeki yazıların ortalanması.*/
+  padding: 20px 0;/*Div kutularının boyutları 20 piksel olarak ayarlanması*/
+  font-size: 30px;/*Div kutularının içindeki yazılarının boyutları 30 piksel olarak ayarlanması.*/
+}
+ul {
+  list-style-type:none;
+}
+.dropbtn {display:none;}
+.dropdown-content {display:none;}
+
+}
+@media screen and (max-width: 503px) {
+.item1{display:none;}
+.item2{display:none;}
+.item3{display:none;}
+.item4{display:none;}
+.item5{display:none;}
+.s {
+display:none;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.dropbtn {       /* web saydfasındaki butonun görünüm özelliklerini ayarladığımız kısımdır.*/
+  color: black;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.dropdown-content {  /*açılır penceredeki butonların görünüm özellikleri kısmıdır*/
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {  /*açılır penceredeki butonların boyutlarını ayarladığımız kısımdır */
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #00ffff}
+
+.dropdown:hover .dropdown-content {   /*web sayfasındaki butonun açılır pencere olmasını sağladığımız kısımdır.*/
+  display: block;
+}
+
+.dropdown:hover .dropbtn {   /*web sayfasındaki butonun fare ile üzerine gelidiğinde renk değiştirilmesini sağladığımız kısımdır.*/
+  background-color: #ffff00;
+}
+</style>
+</head>
+<body>                     <!-- burası ise html kodları ile sayfamızın içeriğini dolduruyoruz-->
+						   <!-- yukarıdakı kodlar ile özelleştirmiş oluyoruz-->
+<h1>Grid Layout Media queries</h1>
+
+<div class="grid-container">
+  <div class="item1"><b>Başlık</b></div>
+  <div class="item4"><b>Menü</b></div>
+  <div class="item2"> <a><img src="monster1.jpg" alt="PC"></a></div>
+  <div class="item3"><b>What is Lorem Ipsum?
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    
+    Why do we use it?
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</b></div>  
+  <div class="dropdown">  		    			   	 <!-- div ile dropdownisimli bir sınıf oluşturup -->
+  <button class="dropbtn"><b>Kategori</b></button>   <!-- butonun web sayfa üzerindeki halini vereceğimiz linkler doğrusunda yönlendirme-->
+  <div class="dropdown-content">                     <!-- butonu oluşturdupğumuz kısımdır-->
+  <a href="https://www.google.com.tr/">Google</a>
+  <a href="https://yandex.com.tr/">Yandex</a>
+  <a href="https://www.bing.com/?cc=tr">Bing</a>
+  <a href="https://www.google.com.tr/">Google</a>
+  <a href="https://www.bing.com/?cc=tr">Bing</a>
+  <a href="https://yandex.com.tr/">Yandex</a>
+  <a href="https://www.google.com.tr/">Google</a>
+
+  </div>
+</div>
+  <div class="item5"><b>Altbilgi</b></div>
+
+
+
+</div>
+
+</body>
+</html>
