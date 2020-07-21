@@ -1,0 +1,35 @@
+-İlk önce Githup hesabı oluşturdum ve istediğiniz şekilde profil ayarlamalarını yaptım.
+
+-Sıralı ve sırasız liste oluşturdum
+Sıralı listede <ol> ve <li> etiketlerini kullanarak sıralı liste oluşturdum.
+Sırasız listede ise <ul> ve <li> etiketlerini kullanarak sırasız liste oluşturdum.
+Ve liste elemanlarını bu etiketlerin içerisine yazdım.
+
+-Tablo oluşturdum.
+<table border="4"> gibi etiketleri kullanarak tabloyu özelleştirdim ve
+<tr> etiketinin içine <td> etiketlerini yazarak sütunları oluşturdum.
+Aynı şekilde <tr> etiketinin içine <td> etiketlerini yazarak satırları oluşturdum. 
+
+-Tabloda css kodları ekledim
+Oluşturduğum tabloya CSS kodları ekleyerek kompakt ve düzgün bir görünüm sağlandım.
+
+-TABLOYA MEDİA QUERİES kullanılarak özelleştirdim ve stil ekledim.
+Örnek verecek olursak 
+yazı boyutu 
+pencere küçüldüğünde renk değişimi
+arka plan rengi
+vs...
+
+-Grid hakkında araştırma yaptım ve Edindiğim bilgilerden önemli kod satırlarını yazıp özet çıkarttım.
+
+-İlk hafta yani 1. haftanın özetini çıkarttım ve GitHub'a yükledim.
+
+-1. ödevdeki oluşturduğum listeyi 2. ödevdeki tabloya yerleştirdim ve
+bunların hepsini numaramın son 2 hanesine göre ve sizin verdiğiniz komutlara uygun bir şekilde yaptım.
+
+-Grid Layout Media Queries komutlarını kullanarak bir web sayfası tablosu oluşturdum
+daha sonra ise tablo içerisindeki bir hücreye açılır pencere ile altkategoriler ekledim.
+ve Tablo ve açılır pencerenin de renk yazı tipi vs. özelleştirme yaptım.
+
+-Media Queries kodlarını kullanarak web sayfasındaki penecere küçültüldüğü zaman 
+resim, yazı veya kategorilerin alt alta sıralanmasını sağlayacak kodları yazdım.
